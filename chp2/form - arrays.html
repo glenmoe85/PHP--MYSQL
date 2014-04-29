@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD// XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<gtml xmlns="http:/www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+
+<title>Intro to web form</title>
+
+</head>
+
+<body>
+<form action="handle_form_arrays.php" method="post">
+
+<fieldset>
+
+<legend>Enter your information in the form below:</legend>
+
+<p><b>Name: </b>
+<input type="text" name="name" size="40" maxlength="60"/></p>
+
+<p><b>Email: </b>
+<input type="text" name="email" size="40" maxlength="60"/></p>
+
+<p><b>Gender:</b>
+<input type="radio" name="gender" value="M"/>Male
+<input type="radio" name="gender" value="F"/>Female</p>
+
+<p><b>Age:</b>
+<select name="age">
+	<option value="0-29">Under 30</option>
+	<option value="30+">Between 30 and 60</option>
+</select>
+</p>
+
+<p><b>Comments:</b>
+<textarea name="comments" row="3" col="40"></textarea>
+</p>
+
+</fieldset>
+
+<div align="center"><input type="submit" value="Sumbit my information"/></div>
+
+
+</form>
+
+
+</body>
+</html>
